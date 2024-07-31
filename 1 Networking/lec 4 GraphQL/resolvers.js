@@ -38,11 +38,16 @@ const data = {
 
 export const resolvers = {
     Book: {
-        Author: (parent, args, context, info) => {
-
+        author: (parent, args, context, info) => {
+            // console.log(parent);
+            return data.authors.find(authorDetails => authorDetails.id === parent.authorId);
         }
     },
-
+    Author: {
+        books: (parent, args, context, info) => {
+            return data.books.filter(book => parent.bookIds.includes(book.id));
+        }
+    },
 
     Query: {
         authors: (parent, args, context, info) => {
@@ -50,6 +55,18 @@ export const resolvers = {
         },
         books: (parent, args, context, info) => {
             return data.books
+        }
+    },
+
+    Mutation: {
+        addBook: (parent, args, context, info) => {
+            console.log(args)
+            const newBook = {
+                ...args,
+                id: data.books.length + 1
+            }
+            data.books.push(newBook)
+            return newBook;
         }
     }
 }
