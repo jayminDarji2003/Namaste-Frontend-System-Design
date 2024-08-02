@@ -14,10 +14,10 @@
 
 - [HTTP](#HTTP)
 - [HTTPS](#HTTPS)
-- [HTTP/3 (UQIC)](#HTTP3)
+- [HTTP/3 (UQIC)](#HTTP/3 (UQIC))
 - [TCP](#TCP)
 - [UDP](#UDP)
-- [WEB SOCKET](#WEB_SOCKET)
+- [WEB SOCKET](#WEBSOCKET)
 - [SMTP](#SMTP)
 - [FTP](#FTP)
 
