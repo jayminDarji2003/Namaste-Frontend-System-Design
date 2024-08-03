@@ -8,14 +8,16 @@
 
 - To successful send or receive data (informations) both devices must have to follow the rules of protocol.
 
+- Read this docs go get more informations : <a href="https://www.pubnub.com/learn/glossary/communication-protocols/">Link</a>
+
 ## Communication Protocols
 
 - [HTTP](#HTTP)
 - [HTTPS](#HTTPS)
-- [HTTP/3 (UQIC)](#HTTP3)
+- [HTTP/3 (UQIC)](#HTTP/3 (UQIC))
 - [TCP](#TCP)
 - [UDP](#UDP)
-- [WEB SOCKET](#WEB_SOCKET)
+- [WEB SOCKET](#WEBSOCKET)
 - [SMTP](#SMTP)
 - [FTP](#FTP)
 
@@ -35,8 +37,28 @@
 
 - Each data packet sent over an HTTPS connection is encrypted and secure, using cryptographic protocols such as TLS or SSL, on top of HTTP.
 
+## HTTP/3 (UQIC)
+- comming..
+
+## TCP
+- comming..
+
+## UDP
+- comming..
+
+## WEB SOCKET
+- comming..
+
+## SMTP
+- comming..
+
+## FTP
+- comming..
+
+
 # OSI MODEL
 
 - OSI stands for Open System Interconnection
+- For more info : <a href="https://www.javatpoint.com/osi-model">Link</a>
 
-<img src="https://docs.connexcs.com/guides/img/osimodel.jpg">
+<img src="https://docs.connexcs.com/guides/img/osimodel.jpg" width="50%"/>

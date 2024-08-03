@@ -9,7 +9,20 @@ checkout course : <a href="https://namastedev.com/learn/namaste-frontend-system-
 ## Table of content
 
 1. [Networking](#networking)
+2. [Communication](#communication)
 
 
 ## Networking
-In this module we will deep dive into the networking how it actually working behind the scene.
+1. [How Web Works](https://github.com/jayminDarji2003/Namaste-Frontend-System-Design/tree/master/1%20Networking/lec%201%20How%20web%20works)
+2. [Communication Protocols](https://github.com/jayminDarji2003/Namaste-Frontend-System-Design/tree/master/1%20Networking/lec%202%20Communication%20protocols)
+3. [REST APIs](https://github.com/jayminDarji2003/Namaste-Frontend-System-Design/tree/master/1%20Networking/lec%203%20REST%20APIs)
+4. [GraphQL](https://github.com/jayminDarji2003/Namaste-Frontend-System-Design/tree/master/1%20Networking/lec%204%20GraphQL)
+5. [gRPC](https://github.com/jayminDarji2003/Namaste-Frontend-System-Design/tree/master/1%20Networking/lec%205%20gRPC)
+
+## Communication
+1. [Short Polling]()
+2. [Long Polling]()
+3. [Web Sockets]()
+4. [Server Side Events]()
+5. [Web Hooks]()
+
