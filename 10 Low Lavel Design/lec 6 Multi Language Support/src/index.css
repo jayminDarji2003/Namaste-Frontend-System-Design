@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(230, 222, 222);
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.select_container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(81, 77, 77);
+}
