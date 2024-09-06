@@ -11,7 +11,7 @@ function App() {
   const [data, setData] = useState({});
 
   const notify = (data) => {
-    console.log(data);
+    // console.log(data);
 
     toast(`${data?.name + " - " + data?.course}`, {
       position: "bottom-left",
@@ -39,11 +39,14 @@ function App() {
     }
   }
 
-  // useEffect(() => {
-  setInterval(() => {
-    getData();
-  }, 5000);
-  // }, [data]);
+  useEffect(() => {
+    const shortPolling = setInterval(() => {
+      console.log("setInterval called");
+      getData();
+    }, 5000);
+
+    return () => clearInterval(shortPolling);
+  }, []);
 
   return (
     <>
