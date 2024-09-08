@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Sent Events</title>
+</head>
+<body>
+    <h1>Namaste Frontend System Design</h1>
+    <h2>Server Sent Events</h2>
+
+    <!-- sse - server sent event  -->
+    <div id="sse-data"></div>
+
+    <script>
+        // sse connection goes here
+        const eventSource = new EventSource("/sse");
+
+        eventSource.onmessage = (event) => {
+            // console.log(event.data);
+            document.getElementById('sse-data').innerText = event.data + '\n';
+        };
+    </script>
+</body>
+</html>
